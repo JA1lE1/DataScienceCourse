@@ -33,7 +33,7 @@
     - 选安装
     - win10 + 打开hyper-v 才能在win环境中使用
     - Linux or MAC 直接安装即可
-        - 在本rep下 
+        - linux用户在本rep下 
         - ```bash
             chmod +x docker.sh
             ./docker.sh
