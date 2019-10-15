@@ -1,7 +1,8 @@
 # DataScienceCourse
 数据科学与大数据--python入门与爬虫
 
-# 课前准备
+# 课前准备 :fire: 
+> 请根据下面的链接和提示进行进行相关安装和注册做好课前准备 :+1:
 - [Chrome](https://www.google.cn/intl/zh-CN/chrome/)
   
     - 安装
@@ -28,7 +29,7 @@
     - 安装插件docker
     - 安装插件Remote Development
 - [docker](https://hub.docker.com/?overlay=onboarding)
-    
+  
     - 选安装
     - win10 + 打开hyper-v 才能在win环境中使用
     - Linux or MAC 直接安装即可
