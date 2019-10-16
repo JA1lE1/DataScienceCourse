@@ -41,3 +41,6 @@
 
 # 课堂内容
 - [Microsoft Azure Notebook](https://notebooks.azure.com/JA1LE1/projects/XMUDataScienceAndBigData)
+
+# 实验报告
+- [实验报告模板](./实验报告/)
