@@ -1,0 +1,38 @@
+version: '3.6'
+services: 
+  python:
+    image: python:3.6
+    ports:
+      - '80:80'
+    volumes:
+      - type: bind
+        source: .
+        target: /scripts
+    command: tail -f /dev/null
+    links:
+      - 'mysql'
+      - 'mongodb'
+
+  mysql:
+    image: mysql/mysql-server:5.6
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypass
+      MYSQL_DATABASE: mydb
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+  
+  mongodb:
+    image: mongo:4
+    container_name: mongodb
+    restart: unless-stopped
+    command: mongod --auth
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: myuser
+      MONGO_INITDB_ROOT_PASSWORD: mypass
+      MONGO_INITDB_DATABASE: mydb
+
+
+
+
