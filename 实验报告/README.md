@@ -25,7 +25,7 @@
 
 ## docker(选)
 - 本次实验
-- 如何使用docker作为本次实验环境，可以在实验报告中提及
+- 如果使用docker作为本次实验环境，可以在实验报告中提及
 
 ## 内容参考
 - [Microsoft Azure Notebook](https://notebooks.azure.com/JA1LE1/projects/XMUDataScienceAndBigData)
