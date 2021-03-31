@@ -7,7 +7,7 @@ cssselect==1.1.0
 dnspython==1.16.0
 fake-useragent==0.1.11
 idna==2.8
-lxml==4.4.1
+lxml==4.6.3
 parse==1.12.1
 pyee==6.0.0
 pymongo==3.9.0
